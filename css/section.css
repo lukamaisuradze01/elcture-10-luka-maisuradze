@@ -1,0 +1,399 @@
+
+.container2{
+    position: relative;
+    width:100%;
+}
+
+
+.image1{
+    width:100%;
+}
+
+
+
+.discover{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:79px;
+    color:white;
+    font-family: Helvetica;
+
+}
+.travel{
+    position: absolute;
+    top:61%;
+    left:50%;
+    transform: translate(-61%, -50%);
+    font-size:19px;
+    color:white;
+    font-family: Helvetica;
+}
+.info{
+    width:235px;
+    margin-left:100px;
+    margin-right:83px;
+    display: inline-block;
+    
+}
+.infodisc{
+    color: #636060;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hot{
+    color: #010101;
+    font-size: 28px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.hope{
+    color: #636060;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cards{
+    display: inline-flex;
+    margin-top: 84px;
+    flex-direction: column;
+
+    
+    
+    
+}
+.cards1{
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.idk{
+    width:970px;
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    display:none;
+}
+
+.image1 p{
+   width:286px;
+}
+
+.image2{
+    width:286px;
+}
+.bruh{
+    margin-bottom:23px;
+}
+.flight{
+    color: #343232;
+    font-size: 19px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    display: inline;
+    margin-top:23px;
+    margin-bottom: 9px;
+}
+.we{
+    color: #636060;
+    font-size: 18px;
+    display: inline-block;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight:500;
+    line-height: normal;
+    margin-top:9px;
+}
+
+
+.menu{
+    display: none;
+}
+
+
+
+
+
+.cards2{
+    display: flex;
+    justify-content: space-between;
+    width:970px;
+
+}
+
+.smallbox{
+    width:286px;
+}
+.cruise{
+    margin-top:23px;
+    color: #343232;
+    font-size: 19px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.desc{
+
+    color: #636060;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height:140px;
+}
+
+
+
+/*media!*/
+
+
+@media (max-width:1392px){
+    .info{
+        display: none;
+    }
+    .section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.ERROR{
+    background-color:red;
+    height:10000px;
+    width:300px;
+    display:none;
+
+}
+.leave{
+    height:100px;
+    width:150px;
+    font-size:30px;
+    font-weight:bold;
+    color:red;
+    border-radius:30px;
+    border:none;
+    background-color:black;
+    cursor: pointer;
+    
+}
+
+@media (max-width:1180px){
+    .discover{
+        font-size:50px;
+    }
+    .travel{
+        font-size:14px;
+    }
+}
+@media (max-width:758px){
+    .discover{
+        font-size:30px;
+
+    }
+    .travel{
+        font-size:10px;
+    }
+    .nav{
+        width:500px;
+    }
+    
+    .nav ul li{
+        font-size:10px;
+    }
+}
+@media (max-width:652px){
+    .nav ul{
+        display:none;
+        
+    }
+    
+    .menu{
+        display:inline;
+        height:40px;
+        cursor: pointer;
+        margin-left:400px;
+
+        
+    }
+
+    
+}
+@media (max-width:576px){
+    .menu{
+        margin-left:300px;
+    }
+}
+
+@media (max-width:476px){
+    .menu{
+        margin-left:200px;
+    }
+}
+@media (max-width:378px){
+    .menu{
+        margin-left:100px;
+    }
+}
+@media (max-width:282px){
+    .menu{
+        margin-left:50px;
+    }
+    .logo{
+        margin-left:40px;
+    }
+
+}
+@media (max-width:234px){
+    .menu{
+        margin-left:40px;
+    }
+
+}
+
+
+@media (max-width:450px) {
+    .discover{
+        font-size:24px;
+
+    }
+    .travel{
+        font-size:6px;
+    }
+
+}
+@media (max-width:352px){
+    .discover{
+        font-size: 20px;
+    }
+    
+}
+
+@media(max-width:300px){
+    .discover{
+        font-size:15px;
+    }
+    .travel{
+        font-size:4px;
+    }
+}
+
+@media(max-width:996px) {
+    .idk{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:360px;
+    }
+    .cards2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:360px;
+    }
+    .cards1{
+        width:360px;
+    }
+    .cards{
+        width:360px;
+    }
+    .section2{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:280px){
+    .image1{
+        width:300px;
+    }
+    .idk{
+        width:300px;
+    }
+    .cards1{
+        width:300px;
+
+    }
+    .cards{
+        width:300px;
+    }
+    .section2{
+        width:300px;
+    }
+    .cards2{
+        width:300px;
+    }
+    .menu{
+        margin-left:150px;
+    }
+}
+@media (max-width:270px){
+    header{
+        display:none;
+    }
+    .section2{
+        display: none;
+    }
+    .section1{
+        display:none;
+    }
+    footer{
+        display:none;
+    }
+    .ERROR{
+        display:block;
+    }
+}

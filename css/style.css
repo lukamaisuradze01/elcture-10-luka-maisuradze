@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    height:84px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left:99px;
+}
+
+.nav{
+    display: flex;
+    width:600px;
+    
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav ul li{
+    margin-right:52px;
+    color: #636060;
+font-size: 17px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
